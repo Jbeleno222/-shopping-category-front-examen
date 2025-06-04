@@ -1,0 +1,24 @@
+<form id="form-add-product" class="p-4 border rounded shadow bg-light">
+    <h4>Agregar Producto</h4>
+    <div class="mb-3">
+      <label for="title" class="form-label">Nombre del Producto</label>
+      <input type="text" class="form-control" id="title" required>
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Precio</label>
+      <input type="number" class="form-control" id="price" required>
+    </div>
+    <div class="mb-3">
+      <label for="description" class="form-label">Descripción</label>
+      <textarea class="form-control" id="description" required></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="categoryId" class="form-label">ID de Categoría</label>
+      <input type="number" class="form-control" id="categoryId" required>
+    </div>
+    <div class="mb-3">
+      <label for="images" class="form-label">URL de Imágenes (una o más)</label>
+      <input type="url" class="form-control" id="images" required>
+    </div>
+    <button type="submit" class="btn btn-success">Agregar Producto</button>
+  </form>
